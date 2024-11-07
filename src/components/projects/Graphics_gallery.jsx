@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion";
-const Graphic_gallery = () => {
+const Graphics_gallery = () => {
 
     const containerAnimation = {
         hidden: { opacity: 0 },
@@ -41,4 +41,4 @@ const Graphic_gallery = () => {
   )
 }
 
-export default Graphic_gallery
+export default Graphics_gallery
