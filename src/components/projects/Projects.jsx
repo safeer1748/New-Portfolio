@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Web_projects from "./Web_projects";
-import Graphic_projects from "./Graphic_projects";
+// import Graphic_projects from "./Graphic_projects";
+import Graphic_gallery from "./graphic_gallery";
 
 const Projects = () => {
   const [toggleButton, setToggleButton] = useState("web");
@@ -30,7 +31,7 @@ const Projects = () => {
             Graphics
           </button>
         </div>
-        {toggleButton === "web" ? <Web_projects /> : <Graphic_projects/>}
+        {toggleButton === "web" ? <Web_projects /> : <Graphic_gallery/>}
       </section>
     </>
   );
