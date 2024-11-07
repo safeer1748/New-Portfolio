@@ -14,7 +14,7 @@ const Graphics_gallery = () => {
       };
   return (
     <div>
-        <motion.div className='columns-1 gap-3 sm:columns-2 lg:columns-3 xl:columns-3 [&>img:not(:first-child)]:mt-3'
+        <motion.div className='columns-1 gap-3 sm:columns-2 lg:columns-3 xl:columns-4 [&>img:not(:first-child)]:mt-3'
         initial="hidden"
         whileInView="visible"
         variants={containerAnimation}>
