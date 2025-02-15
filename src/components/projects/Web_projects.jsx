@@ -38,26 +38,25 @@ const Web_projects = () => {
     },
     {
       id: 3,
-      thumb_url: "/assets/calculator/calculator thumbnail.png",
-      title: "Calculator",
+      thumb_url: "/assets/cubix/cubix thumbnail.png",
+      title: "Cubix",
       description:
-        "It is calculator created with the help of React.js and Tailwind.css. It perform basic math operation with the help of Mathjs library. I also added some checks for better experience.",
-      carousel_img: ["/assets/calculator/carousel img/1.png"],
-      github_url:"https://github.com/safeer1748/calculator",
-      website_url:"https://calculator-woad-xi-40.vercel.app/",
+        "A modern, responsive landing page for Cubix blockchain company built with Next.js and Tailwind CSS.",
+      carousel_img: ["/assets/cubix/carousel img/1.png"],
+      github_url:"https://github.com/safeer1748/cubix-landingpage",
+      website_url:"https://cubix-landingpage.vercel.app/",
     },
     {
       id: 4,
-      thumb_url: "/assets/newsbay/newsbay thumbnail.png",
-      title: "Newsbay",
+      thumb_url: "/assets/music/music thumbnail.png",
+      title: "Music",
       description:
-        "Newsbay is a News app which can fetch the top headlines news of different category from News API. It is created by using React.js and Tailwind CSS.",
+        "A modern, interactive music education platform built with Next.js 15, React 19, and TailwindCSS. This platform features a beautiful UI powered by Aceternity UI components and Framer Motion animations.",
       carousel_img: [
-        "/assets/newsbay/carousel img/1.png",
-        "/assets/newsbay/carousel img/2.png",
-        "/assets/newsbay/carousel img/3.png",
+        "/assets/music/carousel img/1.png",
       ],
-      github_url:"https://github.com/safeer1748/Newsbay",
+      github_url:"https://github.com/safeer1748/music-aceternityui-nextjs",
+      website_url:"https://music-aceternityui-nextjs.vercel.app/",
     },
   ];
 

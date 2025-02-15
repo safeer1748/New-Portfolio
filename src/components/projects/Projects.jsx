@@ -14,7 +14,8 @@ const Projects = () => {
         className="relative w-full flex flex-col justify-center items-center gap-y-16 px-6 md:px-20"
       >
         <h1 className="font-bold text-4xl mt-16">Projects</h1>
-        <div className="flex justify-end w-full">
+        <div className="w-full max-w-[90rem]">
+        <div className="flex justify-end w-full mb-5">
           <button
             onClick={() => setToggleButton("web")}
             className={`${
@@ -33,6 +34,7 @@ const Projects = () => {
           </button>
         </div>
         {toggleButton === "web" ? <Web_projects /> : <Graphics_gallery/>}
+        </div>
       </section>
     </>
   );

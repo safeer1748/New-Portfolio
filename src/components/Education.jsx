@@ -49,7 +49,7 @@ const Education = () => {
       <section id="education" className="relative w-full flex flex-col justify-center items-center gap-y-16 px-6 md:px-20">
         <h1 className="font-bold text-4xl mt-28">Education</h1>
         <motion.div
-          className="w-full  flex flex-col gap-y-8"
+          className="w-full max-w-[90rem]  flex flex-col gap-y-8"
           initial="hidden"
           whileInView="visible"
           variants={containerAnimation}

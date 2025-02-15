@@ -63,7 +63,7 @@ const Web_Modal = ({ selected, setSelected }) => {
                   Github Code
                 </motion.button>
               </a>
-              {selected[0].id === 2 || selected[0].id === 3 ? (
+              {selected[0].id === 2 || selected[0].id === 3||selected[0].id === 4 ? (
                 <a href={selected[0].website_url} target="_blank">
                   <motion.button
                     className="text-sm bg-black text-white px-4 py-2"
@@ -96,7 +96,7 @@ const Web_Modal = ({ selected, setSelected }) => {
             className="absolute bg-black rounded-full top-2 right-2 z-50 cursor-pointer text-white"
             onClick={() => setSelected(null)}
           >
-            <IoIosClose size={23} />
+            <IoIosClose size={30} />
           </motion.button>
         </motion.div>
       </div>

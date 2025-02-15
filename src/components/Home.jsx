@@ -34,7 +34,7 @@ const Home = () => {
           <h4 className="font-bold sm:text-2xl text-xl">Hi, I'm</h4>
           <h1 className="font-bold sm:text-6xl text-3xl">Safeer Muhammad</h1>
           <h2 className="font-bold sm:text-4xl text-xl">
-            Frontend React Developer
+            Frontend Developer
           </h2>
           <a href="/assets/My Resume.pdf" download="Safeer-Resume" className="mt-4">
             <motion.button

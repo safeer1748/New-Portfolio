@@ -1,16 +1,29 @@
 import React from "react";
 import { FaReact, FaBootstrap, FaHtml5, FaCss3Alt } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
-import { RiTailwindCssFill } from "react-icons/ri";
-import { SiFramer, SiFirebase, SiAdobephotoshop } from "react-icons/si";
+import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
+import { SiFramer, SiFirebase, SiAdobephotoshop, SiAntdesign, SiShadcnui, SiTypescript } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa6";
 import { IoLogoFigma } from "react-icons/io5";
 import { motion } from "framer-motion";
 const Skills = () => {
   const Skills = [
+    
+    {
+      icon:<RiNextjsFill />,
+      name: "Next",
+    },
     {
       icon: <FaReact/>,
       name: "React",
+    },
+    {
+      icon:<SiShadcnui />,
+      name: "Shadcn",
+    },
+    {
+      icon:<SiAntdesign/>,
+      name: "Ant Design",
     },
     {
       icon: <RiTailwindCssFill />,
@@ -19,6 +32,10 @@ const Skills = () => {
     {
       icon: <FaBootstrap />,
       name: "Bootstrap",
+    },
+    {
+      icon: <SiTypescript />,
+      name: "Typescript",
     },
     {
       icon: <TbBrandJavascript />,
@@ -80,7 +97,7 @@ const Skills = () => {
     <>
       <section id="skills" className="relative w-full flex flex-col justify-center items-center gap-y-16 px-6 md:px-20">
         <h1 className="font-bold text-4xl mt-28">Skills</h1>
-        <motion.div className="w-full grid grid-cols-2 md:grid-cols-4 gap-8"
+        <motion.div className="w-full max-w-[90rem] grid grid-cols-2 md:grid-cols-4 gap-8"
         initial="hidden"
         whileInView="visible"
         variants={containerAnimation}
